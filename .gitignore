@@ -1,0 +1,4 @@
+*.jks
+/app/release
+local.properties
+/app/build

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/number_input"
+        android:layout_width="245dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="391dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="299dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Number (ex:+33781301523)"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="267dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="416dp"
+        android:text="SMS Incognito by 0xC_M0NK3Y, source code on https://github.com/0xC-M0NK3Y."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/text_input"
+        android:layout_width="367dp"
+        android:layout_height="142dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="451dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="138dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Text to send"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/send_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="154dp"
+        android:layout_marginTop="626dp"
+        android:layout_marginEnd="154dp"
+        android:layout_marginBottom="57dp"
+        android:text="Send"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buy_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="298dp"
+        android:layout_marginTop="667dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="16dp"
+        android:text="Buy credits"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginBottom="479dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icone2" />
+
+    <Button
+        android:id="@+id/get_id_button"
+        android:layout_width="56dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="362dp"
+        android:layout_marginBottom="696dp"
+        android:text="ID"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_credit_number"
+        android:layout_width="80dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="626dp"
+        android:layout_marginEnd="294dp"
+        android:layout_marginBottom="73dp"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/restore_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="290dp"
+        android:layout_marginBottom="683dp"
+        android:text="restore id"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
