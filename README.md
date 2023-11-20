@@ -1,5 +1,5 @@
 # SMS_Incognito
-Source code of SMS Incognito, android app.
+Source code of SMS Incognito, android app. (servers not up)
 
 ### Overview
 
